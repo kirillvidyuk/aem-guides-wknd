@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-03-22T22:00:36.196+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Front End Dev"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
+                    <accordion
+                        jcr:lastModified="{Date}2023-03-22T22:00:03.835+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/accordion"
+                        expandedItems="[item_1,item_2]"
+                        id="acc"
+                        singleExpansion="false">
+                        <item_1
+                            cq:panelTitle="Item 1"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Item 1"
+                            sling:resourceType="wknd/components/container"
+                            layout="responsiveGrid">
+                            <text
+                                jcr:lastModified="{Date}2023-03-22T22:00:29.444+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/text"
+                                text="&lt;p>item content 1&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </item_1>
+                        <item_2
+                            cq:panelTitle="Item 2"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Item 2"
+                            sling:resourceType="wknd/components/container"
+                            layout="responsiveGrid">
+                            <text
+                                jcr:lastModified="{Date}2023-03-22T22:00:36.194+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/text"
+                                text="&lt;p>item content 2&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </item_2>
+                    </accordion>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
