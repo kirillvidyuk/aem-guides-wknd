@@ -6,4 +6,9 @@
     <xf-web-variation/>
     <rep:policy/>
     <article-page/>
+    <landing-page-template/>
+    <article-page-template/>
+    <content-page-template/>
+    <adventure-page-template/>
+    <experience-fragment-web-variation-template/>
 </jcr:root>
