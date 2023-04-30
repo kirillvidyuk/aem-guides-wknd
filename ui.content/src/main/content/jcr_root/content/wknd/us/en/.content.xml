@@ -4,9 +4,11 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-01-21T12:00:22.816-08:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
-        jcr:title="en"
+        jcr:title="Home"
         sling:resourceType="wknd/components/page"
         pageTitle="WKND Sites Project">
         <root
@@ -79,7 +81,11 @@
             </container>
         </root>
     </jcr:content>
+    <magazine/>
+    <adventures/>
+    <faqs/>
+    <about-us/>
+    <tools/>
     <component-basics/>
     <front-end-dev/>
-    <magazine/>
 </jcr:root>

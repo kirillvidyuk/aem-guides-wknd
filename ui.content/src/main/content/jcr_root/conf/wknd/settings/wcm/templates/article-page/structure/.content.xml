@@ -1,44 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2023-03-23T22:01:32.898+11:00"
+        cq:lastModified="{Date}2022-02-23T09:06:07.878-08:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-04-16T18:08:41.913+10:00"
+        cq:lastReplicated_publish="{Date}2023-04-16T18:08:41.913+10:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
         cq:template="/conf/wknd/settings/wcm/templates/article-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
+        jcr:uuid="a992df7a-71a5-4e21-ab8d-422b613a5029"
         sling:resourceType="wknd/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container"
             layout="responsiveGrid">
             <experiencefragment-header
-                jcr:lastModified="{Date}2023-03-23T21:46:30.646+11:00"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/wknd/us/en/site/header/master"
-                id="article-header"/>
+                fragmentVariationPath="/content/experience-fragments/wknd/us/en/site/header/master"/>
             <container
-                jcr:lastModified="{Date}2023-03-23T21:49:11.411+11:00"
+                jcr:lastModified="{Date}2022-02-23T09:01:28.907-08:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/container"
                 layout="responsiveGrid">
                 <image
-                    jcr:lastModified="{Date}2023-03-23T21:51:10.807+11:00"
+                    jcr:lastModified="{Date}2022-02-23T09:02:20.706-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
                     editable="{Boolean}true"/>
                 <breadcrumb
-                    jcr:lastModified="{Date}2023-03-23T21:51:23.836+11:00"
+                    jcr:lastModified="{Date}2022-02-23T09:02:43.153-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/breadcrumb"
-                    editable="{Boolean}true"/>
+                    sling:resourceType="wknd/components/breadcrumb"/>
                 <container
-                    jcr:lastModified="{Date}2023-03-23T21:52:33.496+11:00"
+                    jcr:lastModified="{Date}2022-02-23T09:03:06.673-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/container"
@@ -51,11 +56,11 @@
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="11"/>
+                            width="12"/>
                     </cq:responsive>
                 </container>
-                <container_1778688675
-                    jcr:lastModified="{Date}2023-03-23T21:54:34.619+11:00"
+                <container_1167242024
+                    jcr:lastModified="{Date}2022-02-23T09:04:02.651-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/container"
@@ -64,21 +69,20 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="1"
-                            width="3"/>
+                            width="4"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="11"/>
+                            width="12"/>
                     </cq:responsive>
-                </container_1778688675>
+                </container_1167242024>
             </container>
             <experiencefragment
-                jcr:lastModified="{Date}2023-03-23T21:48:44.153+11:00"
+                jcr:lastModified="{Date}2022-02-23T09:01:06.004-08:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/wknd/us/en/site/footer/master"
-                id="article-footer"/>
+                fragmentVariationPath="/content/experience-fragments/wknd/us/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

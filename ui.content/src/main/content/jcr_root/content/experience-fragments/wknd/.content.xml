@@ -7,4 +7,5 @@
     jcr:title="WKND Sites Project Fragments"
     sling:configRef="/conf/wknd">
     <us/>
+    <language-masters/>
 </jcr:root>
