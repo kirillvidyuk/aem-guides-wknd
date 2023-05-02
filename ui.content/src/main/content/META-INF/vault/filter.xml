@@ -3,6 +3,7 @@
     <filter root="/conf/wknd" mode="merge"/>
     <filter root="/conf/WKND-test" mode="merge"/>
     <filter root="/content/wknd" mode="merge"/>
+    <filter root="/content/wknd-test" mode="merge"/>
     <filter root="/content/dam/wknd/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
 </workspaceFilter>
