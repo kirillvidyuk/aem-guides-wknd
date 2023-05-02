@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-04-30T12:43:40.624+10:00"
+        cq:lastModified="{Date}2023-04-30T13:58:56.546+10:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-04-26T21:33:13.718+10:00"
         cq:lastReplicated_publish="{Date}2023-04-26T21:33:13.718+10:00"
@@ -68,11 +68,13 @@
                         text="&lt;p>test&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                     <excerpt
-                        jcr:lastModified="{Date}2023-04-30T12:43:40.616+10:00"
+                        jcr:lastModified="{Date}2023-04-30T13:58:56.544+10:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
+                        jcr:title="Nelson Mandela"
                         sling:resourceType="wknd/components/content/excerpt"
-                        excerptTitle="I'm not loosing. I'm either winning or learning."/>
+                        excerptTitle="I'm not loosing. I'm either winning or learning."
+                        type="h1"/>
                 </container>
                 <container_1167242024
                     jcr:lastModified="{Date}2022-02-23T09:04:05.303-08:00"
