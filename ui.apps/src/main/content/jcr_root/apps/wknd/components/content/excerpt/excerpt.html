@@ -5,4 +5,12 @@
 	${properties.excerptTitle}
 </blockquote>
 
-<p>― Nelson Mandela</p>
+<!--/* jcr:title property is inherited from the core title dialog box */-->
+<p data-sly-test="${properties.jcr:title}">
+	― ${properties.jcr:title}
+</p>
+
+
+<h3>Include local script</h3>
+
+<blockquote data-sly-include="orange.html"></blockquote>
