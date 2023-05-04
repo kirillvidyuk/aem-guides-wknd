@@ -19,4 +19,5 @@
             sling:resourceType="core/wcm/components/image/v3/image"
             altValueFromDAM="false"/>
     </jcr:content>
+    <en/>
 </jcr:root>
