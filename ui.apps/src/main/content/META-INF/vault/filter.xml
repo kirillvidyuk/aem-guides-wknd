@@ -3,4 +3,7 @@
     <filter root="/apps/wknd/clientlibs"/>
     <filter root="/apps/wknd/components"/>
     <filter root="/apps/wknd/i18n"/>
+    <filter root="/apps/WKND-test/clientlibs"/>
+    <filter root="/apps/WKND-test/components"/>
+    <filter root="/apps/WKND-test/i18n"/>
 </workspaceFilter>
