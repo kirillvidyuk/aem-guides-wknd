@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-05-06T21:51:27.423+10:00"
+        cq:lastModified="{Date}2023-05-07T19:05:47.310+10:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-05-02T21:22:05.694+10:00"
         cq:lastReplicated_publish="{Date}2023-05-02T21:22:05.694+10:00"
@@ -47,6 +47,24 @@
                     </components>
                 </WKND-test>
             </responsivegrid_1050263523>
+            <languagenavigation_1023816571
+                cq:policy="WKND-test/components/structure/languagenavigation/policy_1683449968155"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <search_1251591875
+                cq:policy="WKND-test/components/structure/search/policy_1683450010444"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <header jcr:primaryType="nt:unstructured">
+                <languagenavigation
+                    cq:policy="WKND-test/components/structure/languagenavigation/policy_1683449968155"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <search
+                    cq:policy="WKND-test/components/structure/search/policy_1683450010444"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </header>
         </root>
     </jcr:content>
 </jcr:root>

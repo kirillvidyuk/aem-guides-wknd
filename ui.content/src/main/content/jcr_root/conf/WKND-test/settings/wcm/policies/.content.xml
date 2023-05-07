@@ -28,12 +28,12 @@
                 </page>
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_3246485544352
-                        jcr:lastModified="{Date}2023-05-02T21:10:16.325+10:00"
+                        jcr:lastModified="{Date}2023-05-07T18:55:46.463+10:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND.Test Structure Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid]">
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid,group:WKND Test Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2023-05-02T21:22:05.694+10:00"
                             cq:lastReplicated_publish="{Date}2023-05-02T21:22:05.694+10:00"
@@ -122,6 +122,33 @@
                     </policy_1683371571194>
                 </teaser>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <languagenavigation jcr:primaryType="nt:unstructured">
+                    <policy_1683449968155
+                        jcr:lastModified="{Date}2023-05-07T19:05:40.522+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Test LangNav Content Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        navigationRoot="/content/wknd-test"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1683449968155>
+                </languagenavigation>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1683450010444
+                        jcr:lastModified="{Date}2023-05-07T19:05:47.307+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Test Search Content Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        resultsSize="10"
+                        searchRoot="/content/wknd-test"
+                        searchTermMinimumLength="3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1683450010444>
+                </search>
+            </structure>
         </components>
     </WKND-test>
 </jcr:root>
