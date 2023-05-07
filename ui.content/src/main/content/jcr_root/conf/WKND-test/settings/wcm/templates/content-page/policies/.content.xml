@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-05-05T22:58:06.708+10:00"
+        cq:lastModified="{Date}2023-05-06T21:51:27.423+10:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-05-02T21:22:05.694+10:00"
         cq:lastReplicated_publish="{Date}2023-05-02T21:22:05.694+10:00"
@@ -31,7 +31,22 @@
             <responsivegrid_1050263523
                 cq:policy="wcm/foundation/components/responsivegrid/policy_3415689858951"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <WKND-test jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <content jcr:primaryType="nt:unstructured">
+                            <carousel
+                                cq:policy="WKND-test/components/content/carousel/policy_1683371425595"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <teaser
+                                cq:policy="WKND-test/components/content/teaser/policy_1683371571194"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </content>
+                    </components>
+                </WKND-test>
+            </responsivegrid_1050263523>
         </root>
     </jcr:content>
 </jcr:root>

@@ -65,4 +65,63 @@
             </components>
         </foundation>
     </wcm>
+    <WKND-test jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <carousel jcr:primaryType="nt:unstructured">
+                    <policy_1683371425595
+                        jcr:lastModified="{Date}2023-05-06T21:51:27.419+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Test Carousel"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        autopauseDisabled="false"
+                        autoplay="false"
+                        components="/apps/WKND-test/components/content/image"
+                        controlsPrepended="false"
+                        delay="5000">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-carousel--hero"
+                                        cq:styleId="1683371477611"
+                                        cq:styleLabel="Hero"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1683371425595>
+                </carousel>
+                <teaser jcr:primaryType="nt:unstructured">
+                    <policy_1683371571194
+                        jcr:lastModified="{Date}2023-05-06T21:13:58.313+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Test Teaser"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedHeadingElements="[h1,h2,h3,h4,h5,h6]"
+                        showTitleType="false"
+                        titleType="h2">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses=".cmp-teaser--list"
+                                        cq:styleId="1683371605322"
+                                        cq:styleLabel="List"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleId="1683371618936"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1683371571194>
+                </teaser>
+            </content>
+        </components>
+    </WKND-test>
 </jcr:root>
