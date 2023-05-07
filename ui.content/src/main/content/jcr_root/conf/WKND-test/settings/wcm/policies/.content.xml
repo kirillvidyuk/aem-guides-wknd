@@ -148,6 +148,17 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1683450010444>
                 </search>
+                <footer jcr:primaryType="nt:unstructured">
+                    <policy_1683456141035
+                        jcr:lastModified="{Date}2023-05-07T20:43:12.082+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND TEST Footer Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        pages="/content/wknd-test/en/experiences">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1683456141035>
+                </footer>
             </structure>
         </components>
     </WKND-test>

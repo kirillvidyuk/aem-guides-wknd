@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-05-07T19:05:47.310+10:00"
+        cq:lastModified="{Date}2023-05-07T20:43:12.086+10:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-05-02T21:22:05.694+10:00"
         cq:lastReplicated_publish="{Date}2023-05-02T21:22:05.694+10:00"
@@ -65,6 +65,10 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/core/components/policies/mapping"/>
             </header>
+            <footer
+                cq:policy="WKND-test/components/structure/footer/policy_1683456141035"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>
     </jcr:content>
 </jcr:root>

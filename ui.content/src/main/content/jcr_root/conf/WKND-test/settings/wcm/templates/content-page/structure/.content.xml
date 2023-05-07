@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2023-05-07T19:12:28.491+10:00"
+        cq:lastModified="{Date}2023-05-07T20:32:17.943+10:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-05-02T21:22:05.694+10:00"
         cq:lastReplicated_publish="{Date}2023-05-02T21:22:05.694+10:00"
@@ -80,6 +80,11 @@
                 editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </responsivegrid_1050263523>
+            <footer
+                jcr:lastModified="{Date}2023-05-07T20:32:15.505+10:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="WKND-test/components/structure/footer"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
